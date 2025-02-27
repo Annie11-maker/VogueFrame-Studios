@@ -43,11 +43,29 @@ sr.reveal('.about-img', {} )
 sr.reveal('.about-subtitle', {delay: 200} )
 sr.reveal('.about-text', {delay: 400} )
 
-sr.reveal('.skills-subtitle', {delay: 100} )
-sr.reveal('.skills-text', {delay: 150} )
-sr.reveal('.skills-data', {interval: 200} )
-sr.reveal('.skills-img', {delay: 400} )
+sr.reveal('.services-subtitle', {delay: 100} )
+sr.reveal('.services-text', {delay: 150} )
+sr.reveal('.services-data', {interval: 200} )
 
-sr.reveal('.work-img', {interval: 200} )
+// Function to add the animation class to images when they come into view
+function addAnimationClass(entries, observer) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const image = entry.target;
 
-sr.reveal('.contact-input', {interval: 200} )
+      image.classList.add('slide-in');
+
+      // Reset animation after it ends so it can be triggered again
+      image.addEventListener('animationend', () => {
+        image.classList.remove('slide-in');
+      });
+    }
+  });
+}
+
+// observer instance with the option to trigger each time the element comes into view
+const observer = new IntersectionObserver(addAnimationClass, {
+  threshold: 0.5 , // Trigger when 50% of the element is visible
+});
+const images = document.querySelectorAll('.services-img');
+images.forEach(image => observer.observe(image));
