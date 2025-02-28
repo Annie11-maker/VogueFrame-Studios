@@ -148,7 +148,7 @@ a { text-decoration: none; color: #a84d4d; }
 .about-text { margin-bottom: var(--mb2); }
 .about-img { width: 100%; object-fit: cover; height: auto;}
 .services {width: 80%;  margin: 0 auto;}
-.services-img {height: auto; object-fit: cover; width: 100%;}
+.services-img {height: 550px; object-fit: cover; width: 100%;}
 .contact {background-color: #f88b8b;}
 .contact-social { display: flex; flex-direction: row;}
 .contact-social-icon {
