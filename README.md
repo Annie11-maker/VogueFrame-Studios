@@ -18,3 +18,10 @@
 - **JavaScript**: Added interactivity for the navigation and animations.
 - **Bootstrap 5**: Used for grid systems and responsiveness.
 - **Boxicons**: For social media icons.
+
+![Home section Image](project img/a-home-image.png)
+![About us section Image](project img/b-about-us.png)
+![Services section Image](project img/c-services-image.png)
+![Services-2 section Image](project img/d-services-image1.png)
+![Services-3 Image](project img/e-services-image2.png)
+![Contact Us section Image](project img/f-contacs-image.png)
