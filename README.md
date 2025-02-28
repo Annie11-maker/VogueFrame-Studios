@@ -22,6 +22,8 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" alt="html, css, js, bootstrap">
 </div>
 
+## Preview
+
 ![Home section Image](project-img/a-home-image.png)
 ![About us section Image](project-img/b-about-us.png)
 ![Services section Image](project-img/c-services-image.png)
