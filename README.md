@@ -25,3 +25,8 @@
 ![Services-2 section Image](project-img/d-services-image2.png)
 ![Services-3 Image](project-img/e-services-image3.png)
 ![Contact Us section Image](project-img/f-contacts-image.png)
+
+[Video home](project-img/fashion-video1.mp4)
+[Video services1](project-img/fashion-shoots.mp4)
+[Video services2](project-img/portfolio-shoots.mp4)
+[Video services3](project-img/editorial-shoots.mp4)
