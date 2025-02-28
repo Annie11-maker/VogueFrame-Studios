@@ -18,6 +18,9 @@
 - **JavaScript**: Added interactivity for the navigation and animations.
 - **Bootstrap 5**: Used for grid systems and responsiveness.
 - **Boxicons**: For social media icons.
+<div id="stack" align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" alt="html, css, js, bootstrap">
+</div>
 
 ![Home section Image](project-img/a-home-image.png)
 ![About us section Image](project-img/b-about-us.png)
