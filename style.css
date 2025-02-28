@@ -49,14 +49,14 @@ a { text-decoration: none; color: #a84d4d; }
 
 .background-video {
   width: 100%;
-  height: 100vh; /*viewport height */
-  object-fit: cover; /* Ensures the video covers the entire container */
+  height: 100vh;
+  object-fit: cover; /*video covers the entire container */
   position: absolute; /* Position it behind the content */
   top: 0;
   left: 0;
-  width: 100%;  /* Make it fill the entire width */
-  height: 100%; /* Make it fill the entire height */
-  object-fit: cover; /* Ensure it covers the area without distortion */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: -1; /* Put the video behind the content */
 }
 .section { padding-top: 1rem; padding-bottom: 1rem; }
@@ -171,10 +171,10 @@ a { text-decoration: none; color: #a84d4d; }
 .footer p {color: #c8b7a9;}
 
 .services-img.slide-in {
-  animation: slideInLeft 1.5s ease-out forwards; /* Apply the animation */
+  animation: slideInLeft 1.5s ease-out forwards; /* Apply animation */
 }
 
-/* Animation for sliding in from the left */
+/* Animation for sliding in from left */
 @keyframes slideInLeft {
   0% {
     opacity: 0;
